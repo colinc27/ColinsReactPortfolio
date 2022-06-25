@@ -7,13 +7,7 @@ function About() {
       <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
       <div className="my-2">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+        Dedicated professional looking to get back into engineering after developing my business and communication skills at Rocket Mortgage. I am truly a jack of all trades and can fill any role. I have a great understanding of a wide field of disciplines making me someone that can complete any challenge placed in front of me. I can learn anything in a very short amount of time and love a challenge. I think that my skills, knowledge, and hard work would be a great asset to your business as an engineer and a team member.
         </p>
       </div>
     </section>
