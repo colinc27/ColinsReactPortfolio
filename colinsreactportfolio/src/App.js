@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 import ContactForm from './components/Contact';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 
 function App() {
   const [categories] = useState([
@@ -34,6 +35,9 @@ function App() {
           </>
         ) : (
           <ContactForm></ContactForm>
+        )
+         (
+          <Portfolio></Portfolio>
         )}
       </main>
     </div>
