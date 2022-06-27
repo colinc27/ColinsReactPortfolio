@@ -6,8 +6,12 @@ function Nav(props) {
     categories = [],
     setCurrentCategory,
     contactSelected,
+    portfolioSelected,
+    resumeSelected,
     currentCategory,
     setContactSelected,
+    setResumeSelected,
+    setPortfolioSelected,
   } = props;
 
   useEffect(() => {
@@ -16,6 +20,7 @@ function Nav(props) {
 
   return (
     <header className="flex-row px-1">
+
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
@@ -26,16 +31,16 @@ function Nav(props) {
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>
             <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Portfolio</span>
+          <li className={`mx-2 ${portfolioSelected && 'navActive'}`}>
+            <span onClick={() => setPortfolioSelected(true)}>Portfolio</span>
           </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Resume</span>
+          <li className={`mx-2 ${resumeSelected && 'navActive'}`}>
+            <span onClick={() => setResumeSelected(true)}>Resume</span>
           </li>
           {categories.map((category) => (
             <li
               className={`mx-1 ${
-                currentCategory.name === category.name && !contactSelected && 'navActive'
+                currentCategory.name === category.name && !contactSelected && 'navActive' && !portfolioSelected && !resumeSelected
                 }`}
               key={category.name}
             >
@@ -43,6 +48,8 @@ function Nav(props) {
                 onClick={() => {
                   setCurrentCategory(category);
                   setContactSelected(false);
+                  setPortfolioSelected(false);
+                  setResumeSelected(false)
                 }}
               >
                 {capitalizeFirstLetter(category.name)}
