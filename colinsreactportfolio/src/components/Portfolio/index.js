@@ -16,7 +16,7 @@ import chess from '../../assets/img/chess/chess1.jpg';
 import chess2 from '../../assets/img/chess/chess2.jpg';
 import chess3 from '../../assets/img/chess/chess3.jpg';
 
-function Portfolio() {
+const Portfolio=() => {
   return (
     <html lang="en">
       <head>

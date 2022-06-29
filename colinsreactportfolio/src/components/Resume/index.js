@@ -1,6 +1,6 @@
  import React from 'react';
  
- function Resume() {
+const Resume=()=> {
     return (
 <>
  <section id="resume" class="justify-content-center">
