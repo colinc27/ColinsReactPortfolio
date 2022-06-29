@@ -24,23 +24,24 @@ function Nav(props) {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+            <a data-testid="about" href="#about" onClick={function(event){setContactSelected(false);
+            setPortfolioSelected(false); setResumeSelected(false); console.log(setContactSelected,setPortfolioSelected)}}>
               About me
             </a>
           </li>
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
+            <span onClick={function(event){setPortfolioSelected(false); setResumeSelected(false); setContactSelected(true)}}>Contact</span>
           </li>
           <li className={`mx-2 ${portfolioSelected && 'navActive'}`}>
-            <span onClick={() => setPortfolioSelected(true)}>Portfolio</span>
+            <span onClick={function(event){setPortfolioSelected(true); setResumeSelected(false); setContactSelected(false)}}>Portfolio</span>
           </li>
           <li className={`mx-2 ${resumeSelected && 'navActive'}`}>
-            <span onClick={() => setResumeSelected(true)}>Resume</span>
+            <span onClick={function(event){setPortfolioSelected(false); setResumeSelected(true); setContactSelected(false)}}>Resume</span>
           </li>
           {categories.map((category) => (
             <li
               className={`mx-1 ${
-                currentCategory.name === category.name && !contactSelected && 'navActive' && !portfolioSelected && !resumeSelected
+                currentCategory.name === (!contactSelected && 'navActive' )||( !portfolioSelected && 'navActive') ||( !resumeSelected && 'navActive')
                 }`}
               key={category.name}
             >
@@ -54,7 +55,7 @@ function Nav(props) {
               >
                 {capitalizeFirstLetter(category.name)}
               </span>
-            </li>
+             </li>
           ))}
         </ul>
       </nav>

@@ -3,7 +3,7 @@ import Nav from './components/Nav';
 import ContactForm from './components/Contact';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-//import Resume from './components/Resume';
+import Resume from './components/Resume';
 
 function App() {
   const [categories] = useState([
@@ -11,9 +11,6 @@ function App() {
       name: '',
       description: '',
     },
-    { name: '', description: '' },
-    { name: '', description: '' },
-    { name: '', description: '' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -42,19 +39,21 @@ function App() {
           </>
         ) : (
           <ContactForm></ContactForm>
-        )
-        }
-        {!portfolioSelected?(          
-           <>
-            <About></About>
+        ) 
+        } || {!portfolioSelected ? (
+          <>
           </>
         ) : (
           <Portfolio></Portfolio>
-        )}
+        ) 
+        }
+        
       </main>
     </div>
   );
 }
+
+
 
 export default App;
 
