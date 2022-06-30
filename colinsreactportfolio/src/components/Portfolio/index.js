@@ -18,23 +18,9 @@ import chess3 from '../../assets/img/chess/chess3.jpg';
 
 const Portfolio=() => {
   return (
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-          crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="./styles_proj.css" />
-        <title>Web Development</title>
-      </head>
-      <body class="bg-dark">
+      <body class="bg-primary text-secondary">
         <div class="row col-12">
-          <div class="card mx-auto my-3">
+          <div class="card mx-auto my-3" id="Portfolio">
             <img src={stockImg} class="card-img-top" alt="website"/>
             <div class="card-body">
               <h5 class="card-title">Stock/Crypto Watcher</h5>
@@ -56,7 +42,7 @@ const Portfolio=() => {
               >
             </div>
           </div>
-          <div class="card mx-auto my-3">
+          <div class="card mx-auto my-3" id="Portfolio">
           <img src={studentImg} class="card-img-top" alt=" website"/>
             <div class="card-body">
               <h5 class="card-title">Alphabet Testing for first graders</h5>
@@ -80,7 +66,7 @@ const Portfolio=() => {
             </div>
           </div>
     
-          <div class="card mx-auto my-3">
+          <div class="card mx-auto my-3" id="Portfolio">
           <img src={noteImg} class="card-img-top" alt=" website"/>
             <div class="card-body">
               <h5 class="card-title">Note Taking Application</h5>
@@ -101,7 +87,7 @@ const Portfolio=() => {
             </div>
           </div>
     
-          <div class="card mx-auto my-3">
+          <div class="card mx-auto my-3" id="Portfolio">
           <img src={readImg} class="card-img-top" alt=" website"/>
             <div class="card-body">
               <h5 class="card-title">README Generator</h5>
@@ -123,7 +109,7 @@ const Portfolio=() => {
             </div>
           </div>
                 {/* 3D Printing */}
-          <div class="card mx-auto my-3">
+          <div class="card mx-auto my-3" id="Portfolio">
         <img src={dartImg} class="card-img-top" alt="Dartholder" />
         <div class="card-body">
           <h5 class="card-title">Dart Holder</h5>
@@ -140,7 +126,7 @@ const Portfolio=() => {
           >
         </div>
       </div>
-      <div class="card mx-auto my-3">
+      <div class="card mx-auto my-3" id="Portfolio">
         <img src={deskImg} class="card-img-top" alt="des"  />
         <div class="card-body">
           <h5 class="card-title">Desk Caddy</h5>
@@ -204,7 +190,7 @@ const Portfolio=() => {
           </div>
         </div>
       </div>
-      <div class="card mx-auto my-3">
+      <div class="card mx-auto my-3" id="Portfolio">
         <img src={coaster} class="card-img-top" alt="Coaster Holder" />
         <div class="card-body">
           <h5 class="card-title">Coaster Holder</h5>
@@ -269,7 +255,7 @@ const Portfolio=() => {
         </div>
       </div>
 
-      <div class="card mx-auto my-3">
+      <div class="card mx-auto my-3" id="Portfolio">
         <img src={chess} class="card-img-top" alt='Chess Board'/>
         <div class="card-body">
           <h5 class="card-title">Chess Board</h5>
@@ -332,7 +318,6 @@ const Portfolio=() => {
 
         </div>
       </body>
-    </html>
     
   );
 }

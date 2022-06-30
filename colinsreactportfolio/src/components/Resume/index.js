@@ -3,10 +3,10 @@
 const Resume=()=> {
     return (
 <>
- <section id="resume" class="justify-content-center">
+ <body id="resume" class="text-secondary bg-primary my-5">
       <div class="accordion expander mx-auto" id="accordionExample">
-        <div class="card">
-          <div class="card-header" id="headingOne">
+        <div class="card" id="expand">
+          <div class="card-header" id="headingOne ">
             <h2 class="mb-0">
               <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                 Presidents Club Closing Specialist
@@ -14,7 +14,7 @@ const Resume=()=> {
             </h2>
           </div>
       
-          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
                 <ol class="text-left"><h6>November 2020 - May 2022</h6>
                     <li>Worked with mortgage bankers, clients, and title officers to successfully close loans.  Including scheduling, balancing, and coordination </li>
@@ -87,7 +87,7 @@ const Resume=()=> {
                         </div>
                     </div>
       </div>
-    </section>
+    </body>
     </>
     )}
 

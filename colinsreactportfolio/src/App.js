@@ -1,24 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Nav from './components/Nav';
 import ContactForm from './components/Contact';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Social from './components/Footer'
 
 function App() {
-  // const [categories] = useState([
-  //   {
-  //     name: '',
-  //     description: '',
-  //   },
-  // ]);
-
-  // const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-  // const [contactSelected, setContactSelected] = useState(false);
-  // const [portfolioSelected, setPortfolioSelected] = useState(false)
-  // const [resumeSelected, setResumeSelected] = useState(false)
 
   return (
     <Router>
@@ -29,6 +18,7 @@ function App() {
         <Route path='/Portfolio' element={<Portfolio/>}/>
         <Route path='/Resume' element={<Resume/>}/>
       </Routes>
+      <Social></Social>
     </Router>
   );
 }
