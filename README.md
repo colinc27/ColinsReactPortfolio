@@ -14,6 +14,7 @@
   Run npm i 
   ## Usage <a name="usage"></a>
   [Website Link](https://colinc27.github.io/colinsreactportfolio)
+  ![Screenshot](/colinsreactportfolio/src/assets/img/websitescreenshot.png)
   ## How to Contribute <a name="contribute"></a>
   Do not contribute
   ## Tests <a name="tests"></a>
