@@ -13,7 +13,7 @@
   ## Installation <a name="installation"></a>
   Run npm i 
   ## Usage <a name="usage"></a>
-  [Website Link](https://colinc27.github.io/colinsreactportfolio)
+  [Website Link](https://colinc27.github.io/ColinsReactPortfolio/)
   ![Screenshot](/colinsreactportfolio/src/assets/img/websitescreenshot.png)
   ## How to Contribute <a name="contribute"></a>
   Do not contribute
