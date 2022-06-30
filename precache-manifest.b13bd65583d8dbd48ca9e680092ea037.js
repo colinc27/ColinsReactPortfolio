@@ -1,0 +1,94 @@
+self.__precacheManifest = [
+  {
+    "revision": "4cfcb2e9ff1420d7a70e",
+    "url": "/ColinsReactPortfolio/static/css/main.bf02b9d2.chunk.css"
+  },
+  {
+    "revision": "4cfcb2e9ff1420d7a70e",
+    "url": "/ColinsReactPortfolio/static/js/main.464f1fe1.chunk.js"
+  },
+  {
+    "revision": "11fcf54efb60452f7079",
+    "url": "/ColinsReactPortfolio/static/js/runtime~main.1b51ea2a.js"
+  },
+  {
+    "revision": "6e516b141f73a7c64112",
+    "url": "/ColinsReactPortfolio/static/js/2.a01a2349.chunk.js"
+  },
+  {
+    "revision": "5d06bb858cc186fdb179",
+    "url": "/ColinsReactPortfolio/static/js/3.b019360d.chunk.js"
+  },
+  {
+    "revision": "f4d91a29dd603db188918483e505e687",
+    "url": "/ColinsReactPortfolio/static/media/prof.f4d91a29.jpg"
+  },
+  {
+    "revision": "2d226a24055a132b3eb319ce69bf8f49",
+    "url": "/ColinsReactPortfolio/static/media/read.2d226a24.png"
+  },
+  {
+    "revision": "d4975786e31fe59ebe317a318ecf9d4f",
+    "url": "/ColinsReactPortfolio/static/media/student.d4975786.png"
+  },
+  {
+    "revision": "8688e95819f42bdc3dbcba1335ff51ee",
+    "url": "/ColinsReactPortfolio/static/media/stock.8688e958.png"
+  },
+  {
+    "revision": "f2c021f4a3286e5358134bf63d8236b1",
+    "url": "/ColinsReactPortfolio/static/media/note.f2c021f4.png"
+  },
+  {
+    "revision": "3905803389cb9f04aed6a7e130e6bfb7",
+    "url": "/ColinsReactPortfolio/static/media/deskcaddy.39058033.png"
+  },
+  {
+    "revision": "44669403a73363727406f945276285b0",
+    "url": "/ColinsReactPortfolio/static/media/Dartboard.44669403.png"
+  },
+  {
+    "revision": "7da109079ded4bbba9916faef8fe8610",
+    "url": "/ColinsReactPortfolio/static/media/dc1.7da10907.jpg"
+  },
+  {
+    "revision": "1a4acc9ecbac31d43d6ce6ad83a617c9",
+    "url": "/ColinsReactPortfolio/static/media/dc2.1a4acc9e.jpg"
+  },
+  {
+    "revision": "077c4b2e494f5c0f7772023c22082cb8",
+    "url": "/ColinsReactPortfolio/static/media/dc3.077c4b2e.jpg"
+  },
+  {
+    "revision": "bf81c0599cfd0888420f8de15c15ad6b",
+    "url": "/ColinsReactPortfolio/static/media/holder.bf81c059.png"
+  },
+  {
+    "revision": "e900eb3181f1baf224eb2003bfab581e",
+    "url": "/ColinsReactPortfolio/static/media/coast1.e900eb31.jpg"
+  },
+  {
+    "revision": "94db03d84fbd4cbbb2fc4661af102aa4",
+    "url": "/ColinsReactPortfolio/static/media/coast2.94db03d8.jpg"
+  },
+  {
+    "revision": "37c98b0c6da0d97161e960cf298e1565",
+    "url": "/ColinsReactPortfolio/static/media/coast3.37c98b0c.jpg"
+  },
+  {
+    "revision": "0e16d66215221ad94eb0245609b43939",
+    "url": "/ColinsReactPortfolio/static/media/chess1.0e16d662.jpg"
+  },
+  {
+    "revision": "a37d09456c9785f134752ad171c086ba",
+    "url": "/ColinsReactPortfolio/static/media/chess2.a37d0945.jpg"
+  },
+  {
+    "revision": "935efee24c7eb4da87b4cb5e79bc4230",
+    "url": "/ColinsReactPortfolio/static/media/chess3.935efee2.jpg"
+  },
+  {
+    "revision": "ad17b0fc09054d35d67d6d2a7bd92e77",
+    "url": "/ColinsReactPortfolio/index.html"
+  }
+];
