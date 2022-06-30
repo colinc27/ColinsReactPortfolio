@@ -1,6 +1,8 @@
  import React from 'react';
+
  
 const Resume=()=> {
+
     return (
 <>
  <body id="resume" class="text-secondary bg-primary my-5">
