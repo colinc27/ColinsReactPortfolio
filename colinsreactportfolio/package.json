@@ -1,5 +1,5 @@
 {
-  "homepage": "http://colinc27.github.io/colinsreactportfolio",
+  "homepage": "http://colinc27.github.io/ColinsReactPortfolio",
   "name": "colinsreactportfolio",
   "version": "0.1.0",
   "private": false,
@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "netlify-cli": "^10.7.0"
   }
 }
