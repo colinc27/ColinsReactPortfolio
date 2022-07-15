@@ -15,11 +15,30 @@ import coast3 from '../../assets/img/coast/coast3.jpg';
 import chess from '../../assets/img/chess/chess1.jpg';
 import chess2 from '../../assets/img/chess/chess2.jpg';
 import chess3 from '../../assets/img/chess/chess3.jpg';
-
+import budge from '../../assets/budge.png'
 const Portfolio=() => {
   return (
       <body class="bg-primary text-secondary">
         <div class="row col-12">
+          <div class="card mx-auto my-3" id="Portfolio">
+            <img src={budge} class="card-img-top" alt="website"/>
+            <div class="card-body">
+              <h5 class="card-title">BillionDollarBudget App</h5>
+              <p class="card-text">
+                This was a group project where we developed a simple budgeting app using the MERN stack. We could not get it deployed unfortunately but it will work if it is ran locally.
+              </p>
+              <a
+                href="https://github.com/colinc27/BillionDollarBudget"
+                class="btn btn-primary"
+                >GitHub Repository</a
+              >
+              <a
+                href=""
+                class="btn btn-success"
+                >Deployed website</a
+              >
+            </div>
+          </div>
           <div class="card mx-auto my-3" id="Portfolio">
             <img src={stockImg} class="card-img-top" alt="website"/>
             <div class="card-body">
@@ -31,7 +50,7 @@ const Portfolio=() => {
                 third party APIS
               </p>
               <a
-                href="https://github.com/Blingbi/Stock-CryptoWatcher"
+                href="https://github.com/colinc27/BillionDollarBudget"
                 class="btn btn-primary"
                 >GitHub Repository</a
               >
