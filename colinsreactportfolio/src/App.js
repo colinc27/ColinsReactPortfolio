@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        <Route path="" element={<About />} />
+        <Route path="/ColinsReactPortfolio" element={<About />} />
         <Route path="/Contact" element={<ContactForm />} />
         <Route path="/Portfolio" element={<Portfolio />} />
         <Route path="/Resume" element={<Resume />} />
